@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7E9C4B60833691A40E942A4 /* libPods-KMBProgressHud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C5672CB027B12F0A7ABB0E /* libPods-KMBProgressHud.a */; };
+		FC63BD121FA20EE3001950F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63BD111FA20EE3001950F1 /* AppDelegate.m */; };
+		FC63BD151FA20EE3001950F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63BD141FA20EE3001950F1 /* ViewController.m */; };
+		FC63BD181FA20EE3001950F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC63BD161FA20EE3001950F1 /* Main.storyboard */; };
+		FC63BD1A1FA20EE3001950F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC63BD191FA20EE3001950F1 /* Assets.xcassets */; };
+		FC63BD1D1FA20EE3001950F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC63BD1B1FA20EE3001950F1 /* LaunchScreen.storyboard */; };
+		FC63BD201FA20EE3001950F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63BD1F1FA20EE3001950F1 /* main.m */; };
+		FC63BD2A1FA20EE3001950F1 /* KMBProgressHudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63BD291FA20EE3001950F1 /* KMBProgressHudTests.m */; };
+		FC63BD351FA20EE3001950F1 /* KMBProgressHudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63BD341FA20EE3001950F1 /* KMBProgressHudUITests.m */; };
+		FC63BD451FA210D7001950F1 /* KShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63BD441FA210D7001950F1 /* KShowHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC63BD261FA20EE3001950F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC63BD051FA20EE3001950F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC63BD0C1FA20EE3001950F1;
+			remoteInfo = KMBProgressHud;
+		};
+		FC63BD311FA20EE3001950F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC63BD051FA20EE3001950F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC63BD0C1FA20EE3001950F1;
+			remoteInfo = KMBProgressHud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79A7B4C4333C7399B60825C5 /* Pods-KMBProgressHud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMBProgressHud.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMBProgressHud/Pods-KMBProgressHud.release.xcconfig"; sourceTree = "<group>"; };
+		844A021FEF8493AC84851552 /* Pods-KMBProgressHud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMBProgressHud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMBProgressHud/Pods-KMBProgressHud.debug.xcconfig"; sourceTree = "<group>"; };
+		88C5672CB027B12F0A7ABB0E /* libPods-KMBProgressHud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KMBProgressHud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC63BD0D1FA20EE3001950F1 /* KMBProgressHud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMBProgressHud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC63BD101FA20EE3001950F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC63BD111FA20EE3001950F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC63BD131FA20EE3001950F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC63BD141FA20EE3001950F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC63BD171FA20EE3001950F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC63BD191FA20EE3001950F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC63BD1C1FA20EE3001950F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC63BD1E1FA20EE3001950F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC63BD1F1FA20EE3001950F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC63BD251FA20EE3001950F1 /* KMBProgressHudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMBProgressHudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC63BD291FA20EE3001950F1 /* KMBProgressHudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMBProgressHudTests.m; sourceTree = "<group>"; };
+		FC63BD2B1FA20EE3001950F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC63BD301FA20EE3001950F1 /* KMBProgressHudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMBProgressHudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC63BD341FA20EE3001950F1 /* KMBProgressHudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMBProgressHudUITests.m; sourceTree = "<group>"; };
+		FC63BD361FA20EE3001950F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC63BD431FA210D7001950F1 /* KShowHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KShowHUD.h; sourceTree = "<group>"; };
+		FC63BD441FA210D7001950F1 /* KShowHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KShowHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC63BD0A1FA20EE3001950F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E9C4B60833691A40E942A4 /* libPods-KMBProgressHud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC63BD221FA20EE3001950F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC63BD2D1FA20EE3001950F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD0AC8B094B5FA4D9064571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C5672CB027B12F0A7ABB0E /* libPods-KMBProgressHud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4A1020C09E0E93778563167 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844A021FEF8493AC84851552 /* Pods-KMBProgressHud.debug.xcconfig */,
+				79A7B4C4333C7399B60825C5 /* Pods-KMBProgressHud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC63BD041FA20EE3001950F1 = {
+			isa = PBXGroup;
+			children = (
+				FC63BD421FA210C2001950F1 /* resource */,
+				FC63BD0F1FA20EE3001950F1 /* KMBProgressHud */,
+				FC63BD281FA20EE3001950F1 /* KMBProgressHudTests */,
+				FC63BD331FA20EE3001950F1 /* KMBProgressHudUITests */,
+				FC63BD0E1FA20EE3001950F1 /* Products */,
+				E4A1020C09E0E93778563167 /* Pods */,
+				ADD0AC8B094B5FA4D9064571 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC63BD0E1FA20EE3001950F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC63BD0D1FA20EE3001950F1 /* KMBProgressHud.app */,
+				FC63BD251FA20EE3001950F1 /* KMBProgressHudTests.xctest */,
+				FC63BD301FA20EE3001950F1 /* KMBProgressHudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC63BD0F1FA20EE3001950F1 /* KMBProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				FC63BD101FA20EE3001950F1 /* AppDelegate.h */,
+				FC63BD111FA20EE3001950F1 /* AppDelegate.m */,
+				FC63BD131FA20EE3001950F1 /* ViewController.h */,
+				FC63BD141FA20EE3001950F1 /* ViewController.m */,
+				FC63BD161FA20EE3001950F1 /* Main.storyboard */,
+				FC63BD191FA20EE3001950F1 /* Assets.xcassets */,
+				FC63BD1B1FA20EE3001950F1 /* LaunchScreen.storyboard */,
+				FC63BD1E1FA20EE3001950F1 /* Info.plist */,
+				FC63BD1F1FA20EE3001950F1 /* main.m */,
+			);
+			path = KMBProgressHud;
+			sourceTree = "<group>";
+		};
+		FC63BD281FA20EE3001950F1 /* KMBProgressHudTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC63BD291FA20EE3001950F1 /* KMBProgressHudTests.m */,
+				FC63BD2B1FA20EE3001950F1 /* Info.plist */,
+			);
+			path = KMBProgressHudTests;
+			sourceTree = "<group>";
+		};
+		FC63BD331FA20EE3001950F1 /* KMBProgressHudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC63BD341FA20EE3001950F1 /* KMBProgressHudUITests.m */,
+				FC63BD361FA20EE3001950F1 /* Info.plist */,
+			);
+			path = KMBProgressHudUITests;
+			sourceTree = "<group>";
+		};
+		FC63BD421FA210C2001950F1 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				FC63BD431FA210D7001950F1 /* KShowHUD.h */,
+				FC63BD441FA210D7001950F1 /* KShowHUD.m */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC63BD0C1FA20EE3001950F1 /* KMBProgressHud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC63BD391FA20EE3001950F1 /* Build configuration list for PBXNativeTarget "KMBProgressHud" */;
+			buildPhases = (
+				14F0A0478F14AF42D5F502B9 /* [CP] Check Pods Manifest.lock */,
+				FC63BD091FA20EE3001950F1 /* Sources */,
+				FC63BD0A1FA20EE3001950F1 /* Frameworks */,
+				FC63BD0B1FA20EE3001950F1 /* Resources */,
+				50559F6CFAF4A2B296809970 /* [CP] Embed Pods Frameworks */,
+				9E3885B38AFFDFF339084F19 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMBProgressHud;
+			productName = KMBProgressHud;
+			productReference = FC63BD0D1FA20EE3001950F1 /* KMBProgressHud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC63BD241FA20EE3001950F1 /* KMBProgressHudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC63BD3C1FA20EE3001950F1 /* Build configuration list for PBXNativeTarget "KMBProgressHudTests" */;
+			buildPhases = (
+				FC63BD211FA20EE3001950F1 /* Sources */,
+				FC63BD221FA20EE3001950F1 /* Frameworks */,
+				FC63BD231FA20EE3001950F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC63BD271FA20EE3001950F1 /* PBXTargetDependency */,
+			);
+			name = KMBProgressHudTests;
+			productName = KMBProgressHudTests;
+			productReference = FC63BD251FA20EE3001950F1 /* KMBProgressHudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC63BD2F1FA20EE3001950F1 /* KMBProgressHudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC63BD3F1FA20EE3001950F1 /* Build configuration list for PBXNativeTarget "KMBProgressHudUITests" */;
+			buildPhases = (
+				FC63BD2C1FA20EE3001950F1 /* Sources */,
+				FC63BD2D1FA20EE3001950F1 /* Frameworks */,
+				FC63BD2E1FA20EE3001950F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC63BD321FA20EE3001950F1 /* PBXTargetDependency */,
+			);
+			name = KMBProgressHudUITests;
+			productName = KMBProgressHudUITests;
+			productReference = FC63BD301FA20EE3001950F1 /* KMBProgressHudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC63BD051FA20EE3001950F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = tenghu;
+				TargetAttributes = {
+					FC63BD0C1FA20EE3001950F1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FC63BD241FA20EE3001950F1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC63BD0C1FA20EE3001950F1;
+					};
+					FC63BD2F1FA20EE3001950F1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC63BD0C1FA20EE3001950F1;
+					};
+				};
+			};
+			buildConfigurationList = FC63BD081FA20EE3001950F1 /* Build configuration list for PBXProject "KMBProgressHud" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC63BD041FA20EE3001950F1;
+			productRefGroup = FC63BD0E1FA20EE3001950F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC63BD0C1FA20EE3001950F1 /* KMBProgressHud */,
+				FC63BD241FA20EE3001950F1 /* KMBProgressHudTests */,
+				FC63BD2F1FA20EE3001950F1 /* KMBProgressHudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC63BD0B1FA20EE3001950F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC63BD1D1FA20EE3001950F1 /* LaunchScreen.storyboard in Resources */,
+				FC63BD1A1FA20EE3001950F1 /* Assets.xcassets in Resources */,
+				FC63BD181FA20EE3001950F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC63BD231FA20EE3001950F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC63BD2E1FA20EE3001950F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14F0A0478F14AF42D5F502B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KMBProgressHud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50559F6CFAF4A2B296809970 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMBProgressHud/Pods-KMBProgressHud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3885B38AFFDFF339084F19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMBProgressHud/Pods-KMBProgressHud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC63BD091FA20EE3001950F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC63BD151FA20EE3001950F1 /* ViewController.m in Sources */,
+				FC63BD201FA20EE3001950F1 /* main.m in Sources */,
+				FC63BD451FA210D7001950F1 /* KShowHUD.m in Sources */,
+				FC63BD121FA20EE3001950F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC63BD211FA20EE3001950F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC63BD2A1FA20EE3001950F1 /* KMBProgressHudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC63BD2C1FA20EE3001950F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC63BD351FA20EE3001950F1 /* KMBProgressHudUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC63BD271FA20EE3001950F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC63BD0C1FA20EE3001950F1 /* KMBProgressHud */;
+			targetProxy = FC63BD261FA20EE3001950F1 /* PBXContainerItemProxy */;
+		};
+		FC63BD321FA20EE3001950F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC63BD0C1FA20EE3001950F1 /* KMBProgressHud */;
+			targetProxy = FC63BD311FA20EE3001950F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC63BD161FA20EE3001950F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC63BD171FA20EE3001950F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC63BD1B1FA20EE3001950F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC63BD1C1FA20EE3001950F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC63BD371FA20EE3001950F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC63BD381FA20EE3001950F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC63BD3A1FA20EE3001950F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844A021FEF8493AC84851552 /* Pods-KMBProgressHud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KMBProgressHud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KMBProgressHud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC63BD3B1FA20EE3001950F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A7B4C4333C7399B60825C5 /* Pods-KMBProgressHud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KMBProgressHud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KMBProgressHud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC63BD3D1FA20EE3001950F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMBProgressHudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KMBProgressHudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMBProgressHud.app/KMBProgressHud";
+			};
+			name = Debug;
+		};
+		FC63BD3E1FA20EE3001950F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMBProgressHudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KMBProgressHudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMBProgressHud.app/KMBProgressHud";
+			};
+			name = Release;
+		};
+		FC63BD401FA20EE3001950F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMBProgressHudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KMBProgressHudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMBProgressHud;
+			};
+			name = Debug;
+		};
+		FC63BD411FA20EE3001950F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMBProgressHudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KMBProgressHudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMBProgressHud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC63BD081FA20EE3001950F1 /* Build configuration list for PBXProject "KMBProgressHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC63BD371FA20EE3001950F1 /* Debug */,
+				FC63BD381FA20EE3001950F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC63BD391FA20EE3001950F1 /* Build configuration list for PBXNativeTarget "KMBProgressHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC63BD3A1FA20EE3001950F1 /* Debug */,
+				FC63BD3B1FA20EE3001950F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC63BD3C1FA20EE3001950F1 /* Build configuration list for PBXNativeTarget "KMBProgressHudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC63BD3D1FA20EE3001950F1 /* Debug */,
+				FC63BD3E1FA20EE3001950F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC63BD3F1FA20EE3001950F1 /* Build configuration list for PBXNativeTarget "KMBProgressHudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC63BD401FA20EE3001950F1 /* Debug */,
+				FC63BD411FA20EE3001950F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC63BD051FA20EE3001950F1 /* Project object */;
+}
